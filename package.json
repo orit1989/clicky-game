@@ -5,12 +5,13 @@
   "homepage": "https://orit1989.github.io/clicky-game",
   "dependencies": {
     "gh-pages": "^1.1.0",
+    "npm": "^6.0.1",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
