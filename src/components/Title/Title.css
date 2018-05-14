@@ -1,0 +1,45 @@
+.title {
+  background-image: url("lordof.jpg");
+  background-size: 100%;
+  padding-bottom: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+
+.title h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 980px) {
+  .title p {
+    font-size: 11px;
+  }
+  .title h1 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .title {
+    padding-bottom: 230px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    padding-bottom: 190px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .title {
+    padding-bottom: 140px;
+    margin-top: 80px;
+  }
+}
