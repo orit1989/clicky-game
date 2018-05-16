@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+## Overview 
+
+## Memory Game With React-
+
+1. The application will keep track of the user's score. The user's score will be incremented when clicking an image for the first time. The user's score will be reset to 0 if they click the same image more than once.
+
+2. Every time an image is clicked, the images will shuffle themselves in a random order.
+
+3. Once the user gets all the guesses correct, the game will restart by clicking again on an image.
+
+##Enjoy!
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
